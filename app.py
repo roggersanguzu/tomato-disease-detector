@@ -3,7 +3,6 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 
-
 model = tf.keras.models.load_model("tomato_model.h5")
 
 class_names = ['blightTomatoes', 'healthyTomatoes', 'mosaicTomatoes', 'saptoriaTomatoes']
